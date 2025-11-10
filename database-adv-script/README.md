@@ -6,10 +6,12 @@ This project focuses on mastering **SQL joins**, **subqueries**, **aggregations*
 
 ### Files
 - `joins_queries.sql` – contains all join-based queries (INNER, LEFT, FULL OUTER)
+- `subqueries.sql` – contains all subquery exercises
 - `README.md` – overview of project objectives and tasks
 
 ### 🧠 Concepts Covered
 - INNER JOIN, LEFT JOIN, FULL OUTER JOIN
+- Correlated and Non-Correlated Subqueries
 - Query Optimization and Efficiency
 - SQL best practices for scalable systems
 
@@ -23,6 +25,11 @@ This project focuses on mastering **SQL joins**, **subqueries**, **aggregations*
 - FULL OUTER JOIN simulated using UNION since MySQL doesn’t support it directly.
 - Queries are optimized for readability and performance.
 
-### Author
-**Your Name**  
-ALX SE | Backend Database Module
+### 🧠 Task 1 – Practice Subqueries
+
+**Objective:**  
+Write both correlated and non-correlated subqueries.
+
+**Queries:**
+1. Non-correlated subquery: find properties with an average rating > 4.0
+2. Correlated subquery: find users who have made more than 3 bookings
