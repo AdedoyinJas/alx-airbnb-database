@@ -33,3 +33,15 @@ Write both correlated and non-correlated subqueries.
 **Queries:**
 1. Non-correlated subquery: find properties with an average rating > 4.0
 2. Correlated subquery: find users who have made more than 3 bookings
+
+### 🧠 Task 2 – Aggregations and Window Functions
+
+**Objective:**  
+Analyze bookings using aggregation and window functions.
+
+**Queries:**
+1. **Total bookings per user**  
+   - Uses `COUNT` with `GROUP BY` to find how many bookings each user has made.
+
+2. **Rank properties by total bookings**  
+   - Uses `RANK()` window function to rank properties based on booking popularity.
